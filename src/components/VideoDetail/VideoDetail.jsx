@@ -1,4 +1,4 @@
-import React, { useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import { Store } from "../../store/index";
 import VideoPlay from "../VideoPlay/VideoPlay";
 import Style from "./VideoDetail.module.scss";
