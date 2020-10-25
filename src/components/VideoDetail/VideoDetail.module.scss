@@ -3,6 +3,9 @@
   padding: 1rem;
   p {
     color: white;
+    @media screen and (max-width: 560px) {
+      width: 100%;
+    }
   }
   pre {
     color: white;
@@ -10,6 +13,10 @@
     overflow: auto;
     white-space: pre-wrap;
     word-wrap: break-word;
+    @media screen and (max-width: 560px) {
+      width: 100%;
+      padding: 0;
+    }
   }
   a {
     color: #3ea6ff;
