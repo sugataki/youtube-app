@@ -21,7 +21,8 @@ const VideoDetail = () => {
 
   useEffect(() => {
     setSelectedVideo();
-  }, []);
+  }, [location.search]);
+
   return globalState.selected && globalState.selected.id ? (
     <div className={Style.wrap}>
       <VideoPlay id={globalState.selected.id} />
